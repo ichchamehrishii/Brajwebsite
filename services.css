@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    background: white; /* White background for the container */
+    padding: 20px; /* Space around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Fixed width for the form */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark gray color for the heading */
+}
+
+.form-group {
+    margin: 15px 0; /* Space between form elements */
+}
+
+label {
+    font-size: 16px; /* Slightly larger font size */
+    color: #555; /* Medium gray color for labels */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding around the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width */
+    font-size: 16px; /* Font size for the button */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+body{
+    background-image: url(premmandir.jpg); /* Path to your background image */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Make the body full height of the viewport */
+    margin: 0; /* Remove default margin */
+    color: rgb(23, 31, 254); /* Change text color for contrast */
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+}
+
+p.p1 {
+    font-family: 'Poppins', sans-serif; /* Change the font */
+    color: #15020e; /* Change the text color */
+    text-align: center; /* Align the text (you can use left, right, center, or justify) */
+    font-size: 24px; /* Optional: Change the font size */
+    line-height: 1.6; /* Optional: Adjust line height for better readability */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(14, 15, 18); /* Text color */
+    
+}
+
+p.p2 {
+    font-family: 'Arial', sans-serif; /* Change the font */
+    color: #fffafd; /* Change the text color */
+    text-align: center; /* Align the text (you can use left, right, center, or justify) */
+    font-size: 18px; /* Optional: Change the font size */
+    line-height: 1.6; /* Optional: Adjust line height for better readability */
+    background-color: rgb(16, 117, 108); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(10, 10, 10); /* Text color */
+    
+}
+    
+h1 {
+    text-align: center; /* This centers the heading */
+    color: #b0c8d2; /* Optional: Add color */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(14, 15, 18); /* Text color */
+    
+}
+

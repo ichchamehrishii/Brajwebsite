@@ -1,0 +1,63 @@
+h1 {
+    text-align: center; /* This centers the heading */
+    color: #b0c8d2; /* Optional: Add color */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(14, 15, 18); /* Text color */
+    
+}
+
+p.p1 {
+    font-family: 'Poppins', sans-serif; /* Change the font */
+    color: #15020e; /* Change the text color */
+    text-align: center; /* Align the text (you can use left, right, center, or justify) */
+    font-size: 24px; /* Optional: Change the font size */
+    line-height: 1.6; /* Optional: Adjust line height for better readability */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(14, 15, 18); /* Text color */
+    
+}
+    
+
+p.p2 {
+    font-family: 'Arial', sans-serif; /* Change the font */
+    color: #fffafd; /* Change the text color */
+    text-align: center; /* Align the text (you can use left, right, center, or justify) */
+    font-size: 18px; /* Optional: Change the font size */
+    line-height: 1.6; /* Optional: Adjust line height for better readability */
+    background-color: rgb(16, 117, 108); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(10, 10, 10); /* Text color */
+    
+}
+
+.button {
+    background-color: #151579; /* Green background */
+    color: rgb(245, 248, 249); /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+}
+body{
+    background-image: url(premmandir.jpg); /* Path to your background image */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Make the body full height of the viewport */
+    margin: 0; /* Remove default margin */
+    color: rgb(23, 31, 254); /* Change text color for contrast */
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+}
